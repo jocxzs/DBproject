@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `cursos` (
   `PK_id` int(11) NOT NULL AUTO_INCREMENT,
-  `curso_nome` varchar(255) DEFAULT NULL,
+  `nome` varchar(255) DEFAULT NULL,
   PRIMARY KEY (PK_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -37,7 +37,7 @@ CREATE TABLE `cursos` (
 -- Despejando dados para a tabela `cursos`
 --
 
-INSERT INTO `cursos` (`PK_id`, `curso_nome`) VALUES
+INSERT INTO `cursos` (`PK_id`, `nome`) VALUES
 (1, 'DS');
 
 -- --------------------------------------------------------
